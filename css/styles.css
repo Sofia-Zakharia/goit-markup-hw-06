@@ -2,21 +2,36 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+/* --------------------HEADER-------------------- */
 .header {
 }
 .header-navigation {
 }
+
 .header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
+
 .header-menu-list {
 }
+
 .header-menu-item {
 }
+
 .header-menu-link {
 }
+
 .header-address {
 }
+
 .header-address-list {
 }
+
 .header-address-item {
 }
+/* ---------------------------------------- */
