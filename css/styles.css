@@ -52,6 +52,9 @@ body button {
 .header-menu-link:active {
   color: #404bbf;
 }
+.header-menu-link:focus {
+  color: #404bbf;
+}
 .header-address {
   font-style: normal;
 }
@@ -73,6 +76,9 @@ body button {
   color: #404bbf;
 }
 .header-address-link:active {
+  color: #404bbf;
+}
+.header-address-link:focus {
   color: #404bbf;
 }
 /* ---------------------------------------- */
@@ -105,7 +111,9 @@ body button {
 .hero-btn:active {
   background-color: #404bbf;
 }
-
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 /* ---------------------------------------- */
 
 /* ------------------About---------------------- */
@@ -203,6 +211,19 @@ body button {
 /* -----------------Footer----------------------- */
 .footer {
   background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo span {
+  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
