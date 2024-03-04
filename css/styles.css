@@ -21,7 +21,7 @@ body button {
 .header-navigation {
 }
 
-.logo {
+.header-navigation-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -31,7 +31,7 @@ body button {
   color: #4d5ae5;
 }
 
-.logo span {
+.header-navigation-logo span {
   color: #2e2f42;
 }
 .header-menu-list {
