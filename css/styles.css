@@ -1,5 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 body a {
@@ -20,23 +22,22 @@ body button {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .header-menu-list {
 }
-
 .header-menu-item {
 }
-
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -48,7 +49,11 @@ body button {
 .header-menu-link:hover {
   color: #404bbf;
 }
+.header-menu-link:active {
+  color: #404bbf;
+}
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -67,11 +72,15 @@ body button {
 .header-address-link:hover {
   color: #404bbf;
 }
+.header-address-link:active {
+  color: #404bbf;
+}
 /* ---------------------------------------- */
 
 /* ----------------Hero------------------------ */
 
 .hero {
+  background-color: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -87,9 +96,14 @@ body button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
 }
 .hero-btn:hover {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+.hero-btn:active {
+  background-color: #404bbf;
 }
 
 /* ---------------------------------------- */
@@ -113,12 +127,12 @@ body button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ---------------------------------------- */
 
 /* -----------------Team----------------------- */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -127,10 +141,12 @@ body button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-list-img {
 }
@@ -148,7 +164,6 @@ body button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 /* ---------------------------------------- */
 
@@ -162,6 +177,7 @@ body button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -181,12 +197,13 @@ body button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ---------------------------------------- */
 
 /* -----------------Footer----------------------- */
-
+.footer {
+  background-color: #2e2f42;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
