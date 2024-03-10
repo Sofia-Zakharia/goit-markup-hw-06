@@ -46,11 +46,13 @@ img {
 .header {
   padding-bottom: 24px;
   padding-top: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   display: flex;
   flex-grow: 1;
   /* justify-content: space-between; */
+  align-items: center;
 }
 
 .header-navigation-logo {
@@ -153,8 +155,9 @@ img {
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
-  display: flex;
+  display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 .hero-btn:hover {
   background-color: #404bbf;
