@@ -64,7 +64,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .header-navigation-logo span {
@@ -73,7 +73,7 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .header-menu-item {
 }
@@ -101,11 +101,12 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .header .container {
   display: flex;
+  padding: 24px 0;
 }
 .header-address-item {
 }
