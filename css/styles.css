@@ -44,7 +44,7 @@ img {
 /* --------------------HEADER-------------------- */
 
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -64,6 +64,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-navigation-logo span {
@@ -72,6 +73,7 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-item {
 }
@@ -99,6 +101,7 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header .container {
@@ -198,6 +201,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.visually-hidden {
+  display: none;
+}
 /* ---------------------------------------- */
 
 /* -----------------Team----------------------- */
@@ -271,7 +277,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding: 0 11px;
 }
 .portfolio-list-item {
   width: calc((100% - 2 * 24px) / 3);
@@ -299,6 +304,7 @@ img {
 .portfolio-item-wrap {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* ---------------------------------------- */
 
