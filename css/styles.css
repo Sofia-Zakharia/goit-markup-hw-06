@@ -456,4 +456,11 @@ img {
   display: flex;
   gap: 120px;
 }
+
+.footer .team-item-link-icon:hover {
+  background-color: #31d0aa;
+}
+.footer .team-list-icon {
+  gap: 16px;
+}
 /* ---------------------------------------- */
