@@ -295,13 +295,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-item-link-icon:hover {
+.team-item-link-icon:hover,
+.team-item-link-icon:focus,
+.team-item-link-icon:active {
   background-color: #404bbf;
 }
 
-.team-item-link-icon:focus {
-  background-color: #404bbf;
-}
 .team-icon {
   fill: #f4f4fd;
 }
@@ -440,6 +439,9 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-text-wrap {
+  margin-right: 120px;
+}
 
 .footer-media-wrap {
 }
@@ -454,10 +456,12 @@ img {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  /* gap: 120px; */
+  align-items: baseline;
 }
 
-.footer .team-item-link-icon:hover {
+.footer .team-item-link-icon:hover,
+.footer .team-item-link-icon:focus {
   background-color: #31d0aa;
 }
 .footer .team-list-icon {
