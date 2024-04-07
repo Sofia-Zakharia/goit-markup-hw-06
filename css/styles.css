@@ -904,6 +904,9 @@ textarea::placeholder {
   }
   /* ---------------------------------------- */
   /* -----------------Team----------------------- */
+  .team .container {
+    min-width: 584px;
+  }
   .team-list {
     gap: 64px 24px;
   }
