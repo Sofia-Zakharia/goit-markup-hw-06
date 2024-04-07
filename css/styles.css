@@ -894,7 +894,7 @@ textarea::placeholder {
   /* -----------------About----------------------- */
 
   .about .container {
-    width: 584px;
+    min-width: 584px;
   }
   .about-list {
     gap: 72px 24px;
@@ -925,7 +925,7 @@ textarea::placeholder {
 
   .footer .container {
     gap: 72px 24px;
-    max-width: 584px;
+    min-width: 584px;
   }
   .footer-text-wrap {
     display: block;
