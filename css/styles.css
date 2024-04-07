@@ -109,14 +109,19 @@ img {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+  z-index: 10;
 }
 
 .modal-close-mob-btm {
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+  border-radius: 50%;
+  border: 1px solid #e7e9fc;
+  background-color: transparent;
 }
 .close-icon-mob {
+  fill: #2e2f42;
 }
 .header-mob-menu-nav {
 }
@@ -131,6 +136,9 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.header-mob-menu-link span {
+  color: #404bbf;
 }
 .current {
 }
@@ -149,6 +157,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-mob-address-link span {
+  color: #4d5ae5;
 }
 .team-mob-list-icon {
   display: flex;
@@ -477,7 +489,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  width: 264px;
 }
 .footer-text-wrap {
   display: flex;
@@ -566,7 +578,6 @@ img {
 
 .footer-form-btn-icon {
   fill: #fff;
-  margin-left: 16px;
 }
 /* ---------------------------------------- */
 
@@ -592,7 +603,7 @@ img {
 
 .modal {
   width: 288px;
-  height: 623px;
+  min-height: 623px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -881,6 +892,10 @@ textarea::placeholder {
   }
   /* ---------------------------------------- */
   /* -----------------About----------------------- */
+
+  .about .container {
+    width: 584px;
+  }
   .about-list {
     gap: 72px 24px;
   }
@@ -892,7 +907,9 @@ textarea::placeholder {
   .team-list {
     gap: 64px 24px;
   }
-
+  .about-list-title {
+    text-align: left;
+  }
   .team-list-item {
     width: calc((100% - 1 * 24px) / 2);
   }
@@ -908,7 +925,7 @@ textarea::placeholder {
 
   .footer .container {
     gap: 72px 24px;
-    justify-content: center;
+    max-width: 584px;
   }
   .footer-text-wrap {
     display: block;
@@ -1049,6 +1066,7 @@ textarea::placeholder {
   .footer .container {
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0;
   }
   .footer-text-wrap {
     margin-right: 120px;
