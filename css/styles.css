@@ -795,7 +795,7 @@ textarea::placeholder {
 /* ------------------768px---------------------- */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    min-width: 768px;
   }
   /* -----------------Hero----------------------- */
   .hero {
@@ -893,9 +893,6 @@ textarea::placeholder {
   /* ---------------------------------------- */
   /* -----------------About----------------------- */
 
-  .about .container {
-    min-width: 584px;
-  }
   .about-list {
     gap: 72px 24px;
   }
