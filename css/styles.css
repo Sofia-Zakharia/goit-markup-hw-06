@@ -101,11 +101,14 @@ img {
   top: 0;
   background-color: #fff;
   width: 100vw;
-  height: 100vw;
+  height: 100%;
   padding: 24px 24px 40px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .modal-close-mob-btm {
@@ -134,20 +137,30 @@ img {
 .header-mob-address {
 }
 .header-mob-address-list {
+  margin-top: 50px;
   margin-bottom: 48px;
 }
 .header-mob-address-item:not(:last-child) {
   margin-bottom: 24px;
 }
 .header-mob-address-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.team-list-icon {
+.team-mob-list-icon {
+  display: flex;
+  gap: 40px;
 }
 .team-item-icon {
 }
 .team-item-link-icon {
 }
-.team-icon {
+.team-mob-list-icon .team-icon {
+  width: 24px;
+  height: 24px;
 }
 /* ---------------------------------------- */
 
